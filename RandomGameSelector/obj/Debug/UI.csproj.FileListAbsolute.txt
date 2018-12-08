@@ -23,3 +23,28 @@ D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\RandomGameSelector\
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\RandomGameSelector\obj\Debug\UI.csproj.CopyComplete
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\RandomGameSelector\obj\Debug\RandomGameSelector.exe
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\RandomGameSelector\obj\Debug\RandomGameSelector.pdb
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\RandomGameSelector.exe.config
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\RandomGameSelector.exe
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\RandomGameSelector.pdb
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\BL.dll
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\Domain.dll
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\EntityFramework.dll
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\DAL.dll
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\BL.pdb
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\Domain.pdb
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\EntityFramework.xml
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\DAL.pdb
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Debug\DAL.dll.config
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\UI.csprojAssemblyReference.cache
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\RandomGameSelector.AddGame.resources
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\RandomGameSelector.AddPlatform.resources
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\RandomGameSelector.Main.resources
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\RandomGameSelector.Properties.Resources.resources
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\RandomGameSelector.RemoveGames.resources
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\UI.csproj.GenerateResource.cache
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\UI.csproj.CoreCompileInputs.cache
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\UI.csproj.CopyComplete
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\RandomGameSelector.exe
+D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Debug\RandomGameSelector.pdb

@@ -12,3 +12,17 @@ D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\BL\obj\Debug\BL.csp
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\BL\obj\Debug\BL.csproj.CopyComplete
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\BL\obj\Debug\BL.dll
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\BL\obj\Debug\BL.pdb
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\BL.dll
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\BL.pdb
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\DAL.dll
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\Domain.dll
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\EntityFramework.dll
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\DAL.pdb
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\DAL.dll.config
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\Domain.pdb
+D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\EntityFramework.xml
+D:\Documenten\repos\Random-Game-Selector\BL\obj\Debug\BL.csprojAssemblyReference.cache
+D:\Documenten\repos\Random-Game-Selector\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+D:\Documenten\repos\Random-Game-Selector\BL\obj\Debug\BL.csproj.CopyComplete
+D:\Documenten\repos\Random-Game-Selector\BL\obj\Debug\BL.dll
+D:\Documenten\repos\Random-Game-Selector\BL\obj\Debug\BL.pdb

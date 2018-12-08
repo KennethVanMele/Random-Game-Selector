@@ -1,2 +1,6 @@
 
 RandomGameSelector/bin/Release/
+
+\.vs/RandomGameSelector/v15/
+
+*.cache
