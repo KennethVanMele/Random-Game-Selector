@@ -10,7 +10,7 @@ namespace BL
         private static readonly GameRepo repoG = new GameRepo();
         private static readonly PlatformRepo repoP = new PlatformRepo();
 
-        public String GameNaam()
+        public string GameNaam()
         {
             var lijst = repoG.GetGameId(PlatformController.Platform);
             int lengte = lijst.Count;

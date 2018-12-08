@@ -12,3 +12,17 @@ D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Release\DAL
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Release\DAL.csproj.CopyComplete
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Release\DAL.dll
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Release\DAL.pdb
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\DAL.dll.config
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\DAL.dll
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\DAL.pdb
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\Domain.dll
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\EntityFramework.dll
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\Domain.pdb
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\EntityFramework.xml
+D:\Documenten\repos\Random-Game-Selector\DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.dll
+D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.pdb

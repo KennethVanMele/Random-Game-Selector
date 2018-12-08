@@ -36,7 +36,7 @@ namespace DAL
 
         public void RemoveGames(List<String> gamesToRemove)
         {
-            foreach(String title in gamesToRemove)
+            foreach(string title in gamesToRemove)
             {
                 //Get game to remove
                 Game gtr = gCont.Games.Where(g => g.Title == title).First();

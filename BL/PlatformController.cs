@@ -11,10 +11,18 @@ namespace BL
 
         internal static int Platform { get; set; }
 
-        public String PlatformNaam()
+        public string PlatformNaam()
         {
-            Platform = RandIdGen.CalcId(repo.GetNumOfPlatform());
-            return repo.GetPlatform(Platform).PlatformName;
+            try
+            {
+                Platform = RandIdGen.CalcId(repo.GetNumOfPlatform());
+                return repo.GetPlatform(Platform).PlatformName;
+            }
+            catch
+            {
+                Platform++;
+                return repo.GetPlatform(Platform).PlatformName;
+            }
         }
 
         public void AddPlatform(string platformnaam) {

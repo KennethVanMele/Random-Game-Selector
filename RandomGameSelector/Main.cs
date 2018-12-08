@@ -9,10 +9,10 @@ namespace RandomGameSelector
     {
         private readonly PlatformController pCont = new PlatformController();
         private readonly GameController gCont = new GameController();
+
         public Main()
         {
             InitializeComponent();
-            //getGame();
         }
 
         private void GetGame()
