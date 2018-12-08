@@ -1,0 +1,5 @@
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\Domain\bin\Debug\Domain.dll
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\Domain\bin\Debug\Domain.pdb
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\Domain\obj\Debug\Domain.dll
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\Domain\obj\Debug\Domain.pdb

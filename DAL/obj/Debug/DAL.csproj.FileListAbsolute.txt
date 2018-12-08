@@ -1,0 +1,14 @@
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\DAL.dll.config
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\DAL.dll
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\DAL.pdb
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\Domain.dll
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\EntityFramework.dll
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\Domain.pdb
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\EntityFramework.xml
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Debug\DAL.dll
+D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Debug\DAL.pdb
