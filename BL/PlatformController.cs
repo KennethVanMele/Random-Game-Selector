@@ -20,7 +20,11 @@ namespace BL
             }
             catch
             {
-                Platform++;
+                var rnd = new Random();
+
+                if (rnd.Next() % 2 == 0){ Platform++; }
+                else { Platform--; }
+
                 return repo.GetPlatform(Platform).PlatformName;
             }
         }

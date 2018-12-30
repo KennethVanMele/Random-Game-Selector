@@ -36,7 +36,7 @@ namespace RandomGameSelector
         private void btnAddGame_Click(object sender, EventArgs e)
         {
             gCont.AddGame(txtTitle.Text, cmbConsole.Text);
-            Close();
+            txtTitle.Clear();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
