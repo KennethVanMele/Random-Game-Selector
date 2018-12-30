@@ -15,8 +15,6 @@ D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\DAL\obj\Debug\DAL.p
 D:\Documenten\repos\Random-Game-Selector\DAL\bin\Debug\DAL.dll.config
 D:\Documenten\repos\Random-Game-Selector\DAL\bin\Debug\DAL.dll
 D:\Documenten\repos\Random-Game-Selector\DAL\bin\Debug\DAL.pdb
-D:\Documenten\repos\Random-Game-Selector\DAL\bin\Debug\DAL.dll.CodeAnalysisLog.xml
-D:\Documenten\repos\Random-Game-Selector\DAL\bin\Debug\DAL.dll.lastcodeanalysissucceeded
 D:\Documenten\repos\Random-Game-Selector\DAL\bin\Debug\Domain.dll
 D:\Documenten\repos\Random-Game-Selector\DAL\bin\Debug\EntityFramework.dll
 D:\Documenten\repos\Random-Game-Selector\DAL\bin\Debug\EntityFramework.SqlServer.dll

@@ -14,8 +14,6 @@ D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\BL\obj\Debug\BL.dll
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\BL\obj\Debug\BL.pdb
 D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\BL.dll
 D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\BL.pdb
-D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\BL.dll.CodeAnalysisLog.xml
-D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\BL.dll.lastcodeanalysissucceeded
 D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\DAL.dll
 D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\Domain.dll
 D:\Documenten\repos\Random-Game-Selector\BL\bin\Debug\EntityFramework.dll

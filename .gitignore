@@ -8,3 +8,19 @@ RandomGameSelector/bin/Release/
 BL/bin/Release/
 
 *.pdb
+
+BL/bin/Debug/BL\.dll\.CodeAnalysisLog\.xml
+
+BL/bin/Debug/BL\.dll\.lastcodeanalysissucceeded
+
+DAL/bin/Debug/DAL\.dll\.CodeAnalysisLog\.xml
+
+DAL/bin/Debug/DAL\.dll\.lastcodeanalysissucceeded
+
+RandomGameSelector/bin/Debug/RandomGameSelector\.exe\.lastcodeanalysissucceeded
+
+RandomGameSelector/bin/Debug/RandomGameSelector\.exe\.CodeAnalysisLog\.xml
+
+Domain/bin/Debug/Domain\.dll\.CodeAnalysisLog\.xml
+
+Domain/bin/Debug/Domain\.dll\.lastcodeanalysissucceeded

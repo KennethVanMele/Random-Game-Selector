@@ -5,8 +5,6 @@ D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\Domain\obj\Debug\Do
 D:\Documenten\Visual Studio 2017\Projects\RandomGameSelector\Domain\obj\Debug\Domain.pdb
 D:\Documenten\repos\Random-Game-Selector\Domain\bin\Debug\Domain.dll
 D:\Documenten\repos\Random-Game-Selector\Domain\bin\Debug\Domain.pdb
-D:\Documenten\repos\Random-Game-Selector\Domain\bin\Debug\Domain.dll.CodeAnalysisLog.xml
-D:\Documenten\repos\Random-Game-Selector\Domain\bin\Debug\Domain.dll.lastcodeanalysissucceeded
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.dll
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.pdb
