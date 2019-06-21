@@ -48,3 +48,28 @@ D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.cspro
 D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.csproj.CopyComplete
 D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.exe
 D:\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\RandomGameSelector.exe.config
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\RandomGameSelector.exe
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\RandomGameSelector.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\BL.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\Domain.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\EntityFramework.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\EntityFramework.SqlServer.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\DAL.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\BL.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\Domain.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\EntityFramework.xml
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\EntityFramework.SqlServer.xml
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\DAL.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\bin\Release\DAL.dll.config
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.csprojAssemblyReference.cache
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.AddGame.resources
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.AddPlatform.resources
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.Main.resources
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.Properties.Resources.resources
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.RemoveGames.resources
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.csproj.GenerateResource.cache
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.csproj.CoreCompileInputs.cache
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.csproj.CopyComplete
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.exe
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.pdb

@@ -26,3 +26,17 @@ D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.csproj.CoreCompileI
 D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.csproj.CopyComplete
 D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.dll
 D:\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\DAL.dll.config
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\DAL.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\DAL.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\Domain.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\EntityFramework.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\EntityFramework.SqlServer.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\Domain.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\EntityFramework.xml
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\bin\Release\EntityFramework.SqlServer.xml
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.csproj.CopyComplete
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\DAL\obj\Release\DAL.pdb

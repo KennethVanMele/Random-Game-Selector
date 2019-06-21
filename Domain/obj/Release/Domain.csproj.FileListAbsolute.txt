@@ -10,3 +10,9 @@ D:\Documenten\repos\Random-Game-Selector\Domain\obj\Release\Domain.csprojAssembl
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Release\Domain.csproj.CoreCompileInputs.cache
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Release\Domain.dll
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Release\Domain.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\bin\Release\Domain.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\bin\Release\Domain.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\obj\Release\Domain.csprojAssemblyReference.cache
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\obj\Release\Domain.csproj.CoreCompileInputs.cache
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\obj\Release\Domain.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\obj\Release\Domain.pdb
