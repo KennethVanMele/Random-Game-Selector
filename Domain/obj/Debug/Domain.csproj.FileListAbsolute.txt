@@ -8,3 +8,8 @@ D:\Documenten\repos\Random-Game-Selector\Domain\bin\Debug\Domain.pdb
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.csproj.CoreCompileInputs.cache
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.dll
 D:\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\bin\Debug\Domain.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\bin\Debug\Domain.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.csprojAssemblyReference.cache
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.dll
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\Domain\obj\Debug\Domain.pdb

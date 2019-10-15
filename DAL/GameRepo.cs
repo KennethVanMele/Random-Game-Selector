@@ -31,7 +31,7 @@ namespace DAL
 
         public List<Game> GetGames()
         {
-            return gCont.Games.ToList();
+            return gCont.Games.OrderBy(g => g.Title).ToList();
         }
 
         public void RemoveGames(List<String> gamesToRemove)

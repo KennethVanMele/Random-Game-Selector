@@ -69,7 +69,6 @@ D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.Properties.Resources.resources
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.RemoveGames.resources
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.csproj.GenerateResource.cache
-D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.csproj.CoreCompileInputs.cache
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\UI.csproj.CopyComplete
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.exe
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\RandomGameSelector\obj\Release\RandomGameSelector.pdb

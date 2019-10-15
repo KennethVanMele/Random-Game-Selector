@@ -24,3 +24,10 @@ RandomGameSelector/bin/Debug/RandomGameSelector\.exe\.CodeAnalysisLog\.xml
 Domain/bin/Debug/Domain\.dll\.CodeAnalysisLog\.xml
 
 Domain/bin/Debug/Domain\.dll\.lastcodeanalysissucceeded
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
