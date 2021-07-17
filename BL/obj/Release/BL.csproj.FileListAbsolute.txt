@@ -39,3 +39,4 @@ D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\BL\obj\Release\BL.c
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\BL\obj\Release\BL.csproj.CopyComplete
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\BL\obj\Release\BL.dll
 D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\BL\obj\Release\BL.pdb
+D:\OneDrive - Xylos NV\Documenten\repos\Random-Game-Selector\BL\obj\Release\BL.csproj.CoreCompileInputs.cache
