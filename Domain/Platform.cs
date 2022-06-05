@@ -1,5 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Domain
@@ -9,6 +8,7 @@ namespace Domain
     {
         [Key]
         public int PlatformID { get; set; }
-        public String PlatformName { get; set; }
+
+        public String PlatformName { get; set; } = String.Empty;
     }
 }

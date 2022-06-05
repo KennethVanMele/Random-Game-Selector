@@ -1,7 +1,5 @@
-﻿using Domain;
-using DAL;
-using System;
-using System.Collections.Generic;
+﻿using DAL;
+using Domain;
 
 namespace BL
 {
@@ -10,12 +8,12 @@ namespace BL
         private static readonly GameRepo repoG = new GameRepo();
         private static readonly PlatformRepo repoP = new PlatformRepo();
 
-        public string GameNaam()
+        public string GameName()
         {
-            var lijst = repoG.GetGameId(PlatformController.Platform);
-            int lengte = lijst.Count;
-            int i = RandIdGen.CalcId(lengte);
-            var GameId = lijst[i-1].ToString();
+            var list = repoG.GetGameId(PlatformController.Platform);
+            int length = list.Count;
+            int i = RandIdGen.CalcId(length);
+            var GameId = list[i - 1].ToString();
             var start = GameId.IndexOf("=");
             var last = GameId.LastIndexOf("}");
             var span = last - start;

@@ -1,7 +1,5 @@
 ﻿using DAL;
-using System;
 using Domain;
-using System.Collections.Generic;
 
 namespace BL
 {
@@ -11,7 +9,7 @@ namespace BL
 
         internal static int Platform { get; set; }
 
-        public string PlatformNaam()
+        public string PlatformName()
         {
             try
             {
@@ -22,24 +20,25 @@ namespace BL
             {
                 var rnd = new Random();
 
-                if (rnd.Next() % 2 == 0){ Platform++; }
+                if (rnd.Next() % 2 == 0) { Platform++; }
                 else { Platform--; }
 
                 return repo.GetPlatform(Platform).PlatformName;
             }
         }
 
-        public void AddPlatform(string platformnaam) {
+        public void AddPlatform(string platformname)
+        {
             var p = new Platform
             {
-                PlatformName = platformnaam
+                PlatformName = platformname
             };
             repo.AddPlatform(p);
         }
 
         public List<Platform> GetPlatform()
         {
-            return repo.GetPlatformen();
+            return repo.GetPlatforms();
         }
     }
 }

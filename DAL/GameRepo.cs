@@ -1,8 +1,5 @@
 ﻿using Domain;
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace DAL
 {
@@ -18,13 +15,14 @@ namespace DAL
         public ArrayList GetGameId(int platformId)
         {
             ArrayList items = new ArrayList();
-            items.AddRange(gCont.Games.Where(game => game.PlatformID == platformId).Select(g => new { g.Id}).ToList());
+            items.AddRange(gCont.Games.Where(game => game.PlatformID == platformId).Select(g => new { g.Id }).ToList());
             return items;
         }
 
         public Game AddGame(Game game)
         {
-            game = gCont.Games.Add(game);
+            gCont.Database.EnsureCreated();
+            gCont.Add(game);
             gCont.SaveChanges();
             return game;
         }
@@ -36,7 +34,7 @@ namespace DAL
 
         public void RemoveGames(List<String> gamesToRemove)
         {
-            foreach(string title in gamesToRemove)
+            foreach (string title in gamesToRemove)
             {
                 //Get game to remove
                 Game gtr = gCont.Games.Where(g => g.Title == title).First();

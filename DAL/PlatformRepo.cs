@@ -1,7 +1,4 @@
 ﻿using Domain;
-using System.Linq;
-using System.Collections.Generic;
-using System;
 
 namespace DAL
 {
@@ -11,27 +8,29 @@ namespace DAL
 
         public Platform GetPlatform(int platformId)
         {
-                return gCont.Platformen.Single(platform => platform.PlatformID == platformId);
+            return gCont.Platforms.Single(platform => platform.PlatformID == platformId);
         }
 
         public Platform GetPlaformByName(string platformNaam)
         {
-            return gCont.Platformen.Single(platform => platform.PlatformName == platformNaam);
+            return gCont.Platforms.Single(platform => platform.PlatformName == platformNaam);
         }
 
         public int GetNumOfPlatform()
         {
-            var Platformen = gCont.Platformen.ToList();
+            var Platformen = gCont.Platforms.ToList();
             return Platformen.Count;
         }
 
-        public List<Platform> GetPlatformen() {
-            return gCont.Platformen.ToList();
+        public List<Platform> GetPlatforms()
+        {
+            return gCont.Platforms.ToList();
         }
 
         public Platform AddPlatform(Platform platform)
         {
-            platform = gCont.Platformen.Add(platform);
+            gCont.Database.EnsureCreated();
+            gCont.Add(platform);
             gCont.SaveChanges();
             return platform;
         }

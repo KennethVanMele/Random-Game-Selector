@@ -1,17 +1,22 @@
 ﻿using Domain;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace DAL
 {
     public class GameContext : DbContext
     {
-        public GameContext():base("GameDB") {
-            //Database.SetInitializer(new DropCreateDatabaseIfModelChanges<GameContext>());
-            //Database.SetInitializer(new DropCreateDatabaseAlways<GameContext>());
-            Database.SetInitializer(new CreateDatabaseIfNotExists<GameContext>());
+        public GameContext()
+        {
+            var folder = Environment.SpecialFolder.LocalApplicationData;
+            var path = Environment.GetFolderPath(folder);
+            DbPath = System.IO.Path.Join(path, "Games.db");
         }
 
-        public DbSet<Platform> Platformen { get; set; }
-        public DbSet<Game> Games { get; set; }
+        public DbSet<Game> Games { get; set; } = default!;
+        public DbSet<Platform> Platforms { get; set; } = default!;
+
+        public string DbPath { get; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options) => options.UseSqlite($"Data Source={DbPath}");
     }
 }
