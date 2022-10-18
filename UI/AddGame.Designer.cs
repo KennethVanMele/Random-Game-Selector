@@ -35,11 +35,12 @@
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblPlatform = new System.Windows.Forms.Label();
             this.cmbPlatform = new System.Windows.Forms.ComboBox();
+            this.cbMulti = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnAddGame
             // 
-            this.btnAddGame.Location = new System.Drawing.Point(121, 81);
+            this.btnAddGame.Location = new System.Drawing.Point(117, 124);
             this.btnAddGame.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnAddGame.Name = "btnAddGame";
             this.btnAddGame.Size = new System.Drawing.Size(75, 29);
@@ -51,7 +52,7 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(202, 81);
+            this.btnCancel.Location = new System.Drawing.Point(202, 124);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 29);
@@ -95,13 +96,24 @@
             this.cmbPlatform.Size = new System.Drawing.Size(196, 28);
             this.cmbPlatform.TabIndex = 5;
             // 
+            // cbMulti
+            // 
+            this.cbMulti.AutoSize = true;
+            this.cbMulti.Location = new System.Drawing.Point(12, 80);
+            this.cbMulti.Name = "cbMulti";
+            this.cbMulti.Size = new System.Drawing.Size(169, 24);
+            this.cbMulti.TabIndex = 6;
+            this.cbMulti.Text = "Add multiple games.";
+            this.cbMulti.UseVisualStyleBackColor = true;
+            // 
             // AddGame
             // 
             this.AcceptButton = this.btnAddGame;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(290, 129);
+            this.ClientSize = new System.Drawing.Size(290, 166);
+            this.Controls.Add(this.cbMulti);
             this.Controls.Add(this.cmbPlatform);
             this.Controls.Add(this.lblPlatform);
             this.Controls.Add(this.lblTitle);
@@ -127,5 +139,6 @@
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblPlatform;
         private System.Windows.Forms.ComboBox cmbPlatform;
+        private CheckBox cbMulti;
     }
 }
