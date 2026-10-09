@@ -8,7 +8,7 @@ namespace DAL
 
         public Platform GetPlatform(int platformId)
         {
-            return gCont.Platforms.Single(platform => platform.PlatformID == platformId);
+            return gCont.Platforms.FirstOrDefault(platform => platform.PlatformID == platformId);
         }
 
         public Platform GetPlaformByName(string platformNaam)

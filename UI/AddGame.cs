@@ -16,7 +16,7 @@ namespace UI
 
         private void fillCombobox()
         {
-            var platforms = pCont.GetPlatform();
+            List<Platform> platforms = pCont.GetPlatform();
             foreach (Platform platform in platforms)
             {
                 var naam = platform.PlatformName;

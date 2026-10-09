@@ -4,8 +4,8 @@ namespace UI
 {
     public partial class Main : Form
     {
-        private readonly PlatformController pCont = new PlatformController();
-        private readonly GameController gCont = new GameController();
+        private readonly PlatformController pCont = new();
+        private readonly GameController gCont = new();
 
         public Main()
         {
