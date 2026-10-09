@@ -50,7 +50,7 @@
             this.btnRm.TabIndex = 2;
             this.btnRm.Text = ">";
             this.btnRm.UseVisualStyleBackColor = true;
-            this.btnRm.Click += new System.EventHandler(this.btnRm_Click);
+            this.btnRm.Click += new System.EventHandler(this.BtnRm_Click);
             // 
             // btnKeep
             // 
@@ -61,7 +61,7 @@
             this.btnKeep.TabIndex = 3;
             this.btnKeep.Text = "<";
             this.btnKeep.UseVisualStyleBackColor = true;
-            this.btnKeep.Click += new System.EventHandler(this.btnKeep_Click);
+            this.btnKeep.Click += new System.EventHandler(this.BtnKeep_Click);
             // 
             // btnRemove
             // 
@@ -72,7 +72,7 @@
             this.btnRemove.TabIndex = 5;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
-            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            this.btnRemove.Click += new System.EventHandler(this.BtnRemove_Click);
             // 
             // btnCancel
             // 
@@ -84,7 +84,7 @@
             this.btnCancel.TabIndex = 4;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
-            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            this.btnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // lbKeep
             // 

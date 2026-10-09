@@ -5,14 +5,14 @@ namespace UI
 {
     public partial class RemoveGames : Form
     {
-        private readonly GameController gCont = new GameController();
+        private readonly GameController gCont = new();
 
         public RemoveGames()
         {
             InitializeComponent();
         }
 
-        private void btnCancel_Click(object sender, EventArgs e)
+        private void BtnCancel_Click(object sender, EventArgs e)
         {
             Close();
         }
@@ -25,25 +25,21 @@ namespace UI
             }
         }
 
-        private void btnRm_Click(object sender, EventArgs e)
+        private void BtnRm_Click(object sender, EventArgs e)
         {
-            lbRemove.Items.Add(lbKeep.SelectedItem);
+            lbRemove.Items.Add(item: lbKeep.SelectedItem);
             lbKeep.Items.Remove(lbKeep.SelectedItem);
         }
 
-        private void btnKeep_Click(object sender, EventArgs e)
+        private void BtnKeep_Click(object sender, EventArgs e)
         {
-            lbKeep.Items.Add(lbRemove.SelectedItem);
+            lbKeep.Items.Add(item: lbRemove.SelectedItem);
             lbRemove.Items.Remove(lbRemove.SelectedItem);
         }
 
-        private void btnRemove_Click(object sender, EventArgs e)
+        private void BtnRemove_Click(object sender, EventArgs e)
         {
-            List<String> gtr = new List<string>();
-            foreach (String g in lbRemove.Items)
-            {
-                gtr.Add(g);
-            }
+            List<String> gtr = [.. lbRemove.Items.Cast<String>()];
 
             gCont.RemoveGames(gtr);
 

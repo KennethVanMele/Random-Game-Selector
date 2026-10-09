@@ -5,26 +5,20 @@ namespace BL
 {
     public class PlatformController
     {
-        private static readonly PlatformRepo repo = new PlatformRepo();
+        private static readonly PlatformRepo repo = new();
 
         internal static int Platform { get; set; }
 
         public string PlatformName()
         {
-            try
-            {
-                Platform = RandIdGen.CalcId(repo.GetNumOfPlatform());
-                return repo.GetPlatform(Platform).PlatformName;
-            }
-            catch
-            {
-                var rnd = new Random();
+            var all = repo.GetPlatforms();
+            if (all.Count == 0)
+                return "No platforms configured";
 
-                if (rnd.Next() % 2 == 0) { Platform++; }
-                else { Platform--; }
-
-                return repo.GetPlatform(Platform).PlatformName;
-            }
+            var rnd = new Random();
+            var platform = all[rnd.Next(all.Count)];
+            Platform = platform.PlatformID;
+            return platform.PlatformName;
         }
 
         public void AddPlatform(string platformname)

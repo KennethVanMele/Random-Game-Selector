@@ -4,7 +4,7 @@ namespace UI
 {
     public partial class AddPlatform : Form
     {
-        private readonly PlatformController pCont = new PlatformController();
+        private readonly PlatformController pCont = new();
 
         public AddPlatform()
         {
