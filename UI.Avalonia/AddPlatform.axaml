@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="UI.Avalonia.AddPlatform"
+        Width="282" Height="120" CanResize="False"
+        WindowStartupLocation="CenterScreen"
+        Title="Add Platform">
+    <StackPanel Margin="16" Spacing="10">
+        <TextBox x:Name="txtPlatform" Watermark="Platform name" />
+        <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Right">
+            <Button Content="Add" Click="BtnAdd_Click" />
+            <Button Content="Cancel" Click="BtnCancel_Click" />
+        </StackPanel>
+    </StackPanel>
+</Window>

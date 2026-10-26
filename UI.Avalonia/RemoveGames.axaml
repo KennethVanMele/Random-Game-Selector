@@ -1,0 +1,28 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="UI.Avalonia.RemoveGames"
+        Width="612" Height="569"
+        WindowStartupLocation="CenterScreen"
+        Opened="Window_Opened"
+        Title="Remove Games">
+    <DockPanel Margin="16">
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Spacing="8"
+                    HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="Remove" Click="BtnRemove_Click" />
+            <Button Content="Cancel" Click="BtnCancel_Click" />
+        </StackPanel>
+
+        <Grid ColumnDefinitions="*,Auto,*" ColumnSpacing="8">
+            <HeaderedContentControl Grid.Column="0" Header="Keep">
+                <ListBox x:Name="lbKeep" />
+            </HeaderedContentControl>
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="8">
+                <Button Content="&gt;" Click="BtnRm_Click" />
+                <Button Content="&lt;" Click="BtnKeep_Click" />
+            </StackPanel>
+            <HeaderedContentControl Grid.Column="2" Header="Remove">
+                <ListBox x:Name="lbRemove" />
+            </HeaderedContentControl>
+        </Grid>
+    </DockPanel>
+</Window>

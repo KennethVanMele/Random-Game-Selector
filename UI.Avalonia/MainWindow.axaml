@@ -1,9 +1,29 @@
-﻿<Window xmlns="https://github.com/avaloniaui"
+<Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="UI.Avalonia.MainWindow"
-        Title="UI.Avalonia">
-    Welcome to Avalonia!
+        Width="310" Height="306" CanResize="False"
+        WindowStartupLocation="CenterScreen"
+        Title="Random Game">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Add">
+                    <MenuItem Header="_Game" Click="SmiAddGame_Click" />
+                    <MenuItem Header="_Platform" Click="SmiAddPlatform_Click" />
+                </MenuItem>
+                <MenuItem Header="_Remove Games" Click="RemoveGames_Click" />
+                <Separator />
+                <MenuItem Header="E_xit" Click="Exit_Click" />
+            </MenuItem>
+        </Menu>
+
+        <StackPanel Margin="16" Spacing="12">
+            <TextBlock x:Name="lblPlatform" FontSize="18" TextWrapping="Wrap" MinHeight="28" />
+            <TextBlock x:Name="lblGame" FontSize="18" TextWrapping="Wrap" MinHeight="56" />
+            <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Right">
+                <Button Content="Get new game" Click="BtnGetGame_Click" />
+                <Button Content="Cancel" Click="Exit_Click" />
+            </StackPanel>
+        </StackPanel>
+    </DockPanel>
 </Window>
