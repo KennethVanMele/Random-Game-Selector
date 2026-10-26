@@ -40,7 +40,12 @@ public partial class RemoveGames : Window
             .ToList();
     }
 
-    private void BtnEdit_Click(object? sender, RoutedEventArgs e) => new Edit().Show();
+    private void BtnEdit_Click(object? sender, RoutedEventArgs e) { 
+        if (lbGames.SelectedItem is not GameRow Row)
+            return;
+
+       new Edit(Row).ShowDialog(this);
+    }
 
     private void BtnRemove_Click(object? sender, RoutedEventArgs e)
     {

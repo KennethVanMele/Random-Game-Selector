@@ -1,15 +1,18 @@
-using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
-using Avalonia.Markup.Xaml;
 
 namespace UI.Avalonia
 {
     public partial class Edit : Window
     {
-        public Edit()
+        private readonly GameRow row;
+        public Edit() : this(new GameRow()) { }
+
+        public Edit(GameRow row)
         {
             InitializeComponent();
+            this.row = row;
+            txtGame.Text = row.Title;
         }
 
         private void BtnSave_Click(object? sender, RoutedEventArgs e)
