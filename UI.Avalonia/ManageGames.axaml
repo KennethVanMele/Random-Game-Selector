@@ -1,11 +1,11 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="using:UI.Avalonia"
-        x:Class="UI.Avalonia.RemoveGames"
+        x:Class="UI.Avalonia.ManageGames"
         Width="520" Height="569"
         WindowStartupLocation="CenterScreen"
         Opened="Window_Opened"
-        Title="Remove Games">
+        Title="Manage Games">
     <DockPanel Margin="16">
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Spacing="8"
                     HorizontalAlignment="Right" Margin="0,12,0,0">

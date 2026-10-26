@@ -32,7 +32,7 @@ public partial class MainWindow : Window
 
     private void SmiAddPlatform_Click(object? sender, RoutedEventArgs e) => new AddPlatform().Show();
 
-    private void RemoveGames_Click(object? sender, RoutedEventArgs e) => new RemoveGames().Show();
+    private void ManageGames_Click(object? sender, RoutedEventArgs e) => new ManageGames().Show();
 
     private void Exit_Click(object? sender, RoutedEventArgs e) => Close();
 }

@@ -7,6 +7,7 @@ namespace UI.Avalonia
     {
         private readonly GameRow row;
         public Edit() : this(new GameRow()) { }
+        private readonly BL.GameController gCont = new();
 
         public Edit(GameRow row)
         {
@@ -17,7 +18,14 @@ namespace UI.Avalonia
 
         private void BtnSave_Click(object? sender, RoutedEventArgs e)
         {
+            var title = txtGame.Text?.Trim();
+            if (string.IsNullOrWhiteSpace(txtGame.Text))
+                return;
 
+            //new BL.GameController().RenameGame(row.Id, txtGame.Text);
+            gCont.RenameGame(row.Id, title);
+            row.Title = title;
+            Close();
         }
         private void BtnCancel_Click(object? sender, RoutedEventArgs e) => Close();
     }

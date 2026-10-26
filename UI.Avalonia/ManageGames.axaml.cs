@@ -7,17 +7,17 @@ namespace UI.Avalonia;
 public class GameRow
 {
     public int Id { get; init; }
-    public string Title { get; init; } = string.Empty;
+    public string Title { get; set; } = string.Empty;
     public string Platform { get; init; } = string.Empty;
     public bool Remove { get; set; }
 }
 
-public partial class RemoveGames : Window
+public partial class ManageGames : Window
 {
     private readonly GameController gCont = new();
     private List<GameRow> allRows = new();
 
-    public RemoveGames()
+    public ManageGames()
     {
         InitializeComponent();
     }
@@ -55,6 +55,7 @@ public partial class RemoveGames : Window
             return;
 
         await new Edit(row).ShowDialog(this);
+        ApplyFilter();
     }
 
     private void BtnRemove_Click(object? sender, RoutedEventArgs e)

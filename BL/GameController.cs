@@ -46,5 +46,8 @@ namespace BL
         {
             repoG.RemoveGames(gamesToRemove);
         }
+
+        public void RenameGame(int gameId, string newTitle) => repoG.RenameGame(gameId, newTitle);
+
     }
 }

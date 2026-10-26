@@ -28,5 +28,8 @@
     <Compile Update="Edit.axaml.cs">
       <DependentUpon>Edit.axaml</DependentUpon>
     </Compile>
+    <Compile Update="ManageGames.axaml.cs">
+      <DependentUpon>ManageGames.axaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

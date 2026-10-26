@@ -11,7 +11,7 @@
                     <MenuItem Header="_Game" Click="SmiAddGame_Click" />
                     <MenuItem Header="_Platform" Click="SmiAddPlatform_Click" />
                 </MenuItem>
-                <MenuItem Header="_Remove Games" Click="RemoveGames_Click" />
+                <MenuItem Header="_Manage Games" Click="ManageGames_Click" />
                 <Separator />
                 <MenuItem Header="E_xit" Click="Exit_Click" />
             </MenuItem>

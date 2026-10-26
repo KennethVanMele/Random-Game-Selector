@@ -64,5 +64,15 @@ namespace DAL
             Dispose(true);
             GC.SuppressFinalize(this);
         }
+
+        public void RenameGame(int gameId, string newTitle)
+        {
+            var game = gCont.Games.Single(g => g.Id == gameId);
+            if (game != null)
+            {
+                game.Title = newTitle;
+                gCont.SaveChanges();
+            }
+        }
     }
 }
