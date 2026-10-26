@@ -1,7 +1,7 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="UI.Avalonia.MainWindow"
-        Width="310" Height="306" CanResize="False"
+        Width="310" Height="200" CanResize="False"
         WindowStartupLocation="CenterScreen"
         Title="Random Game">
     <DockPanel>

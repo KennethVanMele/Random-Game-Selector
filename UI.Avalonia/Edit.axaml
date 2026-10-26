@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="UI.Avalonia.Edit"
+        Width="282" Height="120" CanResize="False"
+        WindowStartupLocation="CenterScreen"
+        Title="Edit">
+  <StackPanel Margin="16" Spacing="10">
+        <TextBox x:Name="txtGame" />
+        <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Right">
+            <Button Content="Save" Click="BtnSave_Click" />
+            <Button Content="Cancel" Click="BtnCancel_Click" />
+        </StackPanel>
+    </StackPanel>
+</Window>

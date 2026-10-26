@@ -40,6 +40,8 @@ public partial class RemoveGames : Window
             .ToList();
     }
 
+    private void BtnEdit_Click(object? sender, RoutedEventArgs e) => new Edit().Show();
+
     private void BtnRemove_Click(object? sender, RoutedEventArgs e)
     {
         // Use allRows, not the filtered view, so checks survive changing the filter.

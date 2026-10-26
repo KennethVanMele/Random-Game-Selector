@@ -9,12 +9,13 @@
     <DockPanel Margin="16">
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Spacing="8"
                     HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="Edit" Click="BtnEdit_Click" />
             <Button Content="Remove" Click="BtnRemove_Click" />
             <Button Content="Cancel" Click="BtnCancel_Click" />
         </StackPanel>
 
         <Grid RowDefinitions="Auto,Auto,*">
-            <TextBox x:Name="txtFilter" Grid.Row="0" Watermark="Filter by title..."
+            <TextBox x:Name="txtFilter" Grid.Row="0" PlaceholderText="Filter by title..."
                      TextChanged="TxtFilter_TextChanged" Margin="0,0,0,8" />
             <Grid Grid.Row="1" ColumnDefinitions="40,*,160" Margin="4,0,4,4">
                 <TextBlock Grid.Column="1" Text="Title" FontWeight="SemiBold" />

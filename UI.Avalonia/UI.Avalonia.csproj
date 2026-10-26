@@ -23,4 +23,10 @@
     <ProjectReference Include="..\BL\BL.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Edit.axaml.cs">
+      <DependentUpon>Edit.axaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
