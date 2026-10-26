@@ -40,11 +40,21 @@ public partial class RemoveGames : Window
             .ToList();
     }
 
-    private void BtnEdit_Click(object? sender, RoutedEventArgs e) { 
-        if (lbGames.SelectedItem is not GameRow Row)
+    private async void BtnEdit_Click(object? sender, RoutedEventArgs e)
+    {
+        // Clicking a row's checkbox ticks it without selecting the row, so fall back to a single ticked row.
+        var row = lbGames.SelectedItem as GameRow;
+        if (row is null)
+        {
+            var ticked = allRows.Where(r => r.Remove).ToList();
+            if (ticked.Count == 1)
+                row = ticked[0];
+        }
+
+        if (row is null)
             return;
 
-       new Edit(Row).ShowDialog(this);
+        await new Edit(row).ShowDialog(this);
     }
 
     private void BtnRemove_Click(object? sender, RoutedEventArgs e)
