@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32526.322
+# Visual Studio Version 18
+VisualStudioVersion = 18.12.12324.72 oobinsiders
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{B9414A00-DEFA-4F50-93B7-71DDC12B07DC}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9EFF0C16-9FB4-4651-ABB3-873755B36509}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{2F8B8245-B774-4A35-A414-F09FB0DA6584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI.Avalonia", "UI.Avalonia\UI.Avalonia.csproj", "{EC6E2880-F524-4A5A-96B8-38F7F5EFBC54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{2F8B8245-B774-4A35-A414-F09FB0DA6584}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F8B8245-B774-4A35-A414-F09FB0DA6584}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F8B8245-B774-4A35-A414-F09FB0DA6584}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6E2880-F524-4A5A-96B8-38F7F5EFBC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6E2880-F524-4A5A-96B8-38F7F5EFBC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6E2880-F524-4A5A-96B8-38F7F5EFBC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6E2880-F524-4A5A-96B8-38F7F5EFBC54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
