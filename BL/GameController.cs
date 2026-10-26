@@ -37,6 +37,11 @@ namespace BL
             return repoG.GetGames();
         }
 
+        public void RemoveGames(IEnumerable<int> gameIds)
+        {
+            repoG.RemoveGames(gameIds);
+        }
+
         public void RemoveGames(List<String> gamesToRemove)
         {
             repoG.RemoveGames(gamesToRemove);

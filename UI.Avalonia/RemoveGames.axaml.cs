@@ -1,45 +1,43 @@
-using System.Collections.ObjectModel;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using BL;
 
 namespace UI.Avalonia;
 
+public class GameRow
+{
+    public int Id { get; init; }
+    public string Title { get; init; } = string.Empty;
+    public string Platform { get; init; } = string.Empty;
+    public bool Remove { get; set; }
+}
+
 public partial class RemoveGames : Window
 {
     private readonly GameController gCont = new();
-    private readonly ObservableCollection<string> keep = new();
-    private readonly ObservableCollection<string> remove = new();
 
     public RemoveGames()
     {
         InitializeComponent();
-        lbKeep.ItemsSource = keep;
-        lbRemove.ItemsSource = remove;
     }
 
     private void Window_Opened(object? sender, EventArgs e)
     {
-        foreach (var game in gCont.GetGames())
-            keep.Add(game.Title);
+        lbGames.ItemsSource = gCont.GetGames()
+            .Select(g => new GameRow { Id = g.Id, Title = g.Title, Platform = g.Platform.PlatformName })
+            .ToList();
     }
-
-    private static void Move(ListBox from, ObservableCollection<string> source, ObservableCollection<string> target)
-    {
-        if (from.SelectedItem is not string title)
-            return;
-
-        source.Remove(title);
-        target.Add(title);
-    }
-
-    private void BtnRm_Click(object? sender, RoutedEventArgs e) => Move(lbKeep, keep, remove);
-
-    private void BtnKeep_Click(object? sender, RoutedEventArgs e) => Move(lbRemove, remove, keep);
 
     private void BtnRemove_Click(object? sender, RoutedEventArgs e)
     {
-        gCont.RemoveGames(remove.ToList());
+        var ids = ((IEnumerable<GameRow>)lbGames.ItemsSource!)
+            .Where(r => r.Remove)
+            .Select(r => r.Id)
+            .ToList();
+
+        if (ids.Count > 0)
+            gCont.RemoveGames(ids);
+
         Close();
     }
 

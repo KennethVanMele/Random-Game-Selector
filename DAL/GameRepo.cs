@@ -1,4 +1,5 @@
 ﻿using Domain;
+using Microsoft.EntityFrameworkCore;
 using System.Collections;
 
 namespace DAL
@@ -29,7 +30,7 @@ namespace DAL
 
         public List<Game> GetGames()
         {
-            return gCont.Games.OrderBy(g => g.Title).ToList();
+            return gCont.Games.Include(g => g.Platform).OrderBy(g => g.Title).ToList();
         }
 
         public void RemoveGames(List<String> gamesToRemove)
@@ -41,6 +42,13 @@ namespace DAL
                 gCont.Games.Remove(gtr);
                 gCont.SaveChanges();
             }
+        }
+
+        public void RemoveGames(IEnumerable<int> gameIds)
+        {
+            var ids = gameIds.ToList();
+            gCont.Games.RemoveRange(gCont.Games.Where(g => ids.Contains(g.Id)));
+            gCont.SaveChanges();
         }
 
         protected virtual void Dispose(bool disposing)
