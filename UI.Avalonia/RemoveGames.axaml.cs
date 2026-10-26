@@ -15,6 +15,7 @@ public class GameRow
 public partial class RemoveGames : Window
 {
     private readonly GameController gCont = new();
+    private List<GameRow> allRows = new();
 
     public RemoveGames()
     {
@@ -23,14 +24,26 @@ public partial class RemoveGames : Window
 
     private void Window_Opened(object? sender, EventArgs e)
     {
-        lbGames.ItemsSource = gCont.GetGames()
+        allRows = gCont.GetGames()
             .Select(g => new GameRow { Id = g.Id, Title = g.Title, Platform = g.Platform.PlatformName })
+            .ToList();
+        ApplyFilter();
+    }
+
+    private void TxtFilter_TextChanged(object? sender, TextChangedEventArgs e) => ApplyFilter();
+
+    private void ApplyFilter()
+    {
+        var filter = txtFilter.Text?.Trim() ?? string.Empty;
+        lbGames.ItemsSource = allRows
+            .Where(r => r.Title.Contains(filter, StringComparison.CurrentCultureIgnoreCase))
             .ToList();
     }
 
     private void BtnRemove_Click(object? sender, RoutedEventArgs e)
     {
-        var ids = ((IEnumerable<GameRow>)lbGames.ItemsSource!)
+        // Use allRows, not the filtered view, so checks survive changing the filter.
+        var ids = allRows
             .Where(r => r.Remove)
             .Select(r => r.Id)
             .ToList();

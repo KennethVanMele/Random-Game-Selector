@@ -13,12 +13,14 @@
             <Button Content="Cancel" Click="BtnCancel_Click" />
         </StackPanel>
 
-        <Grid RowDefinitions="Auto,*">
-            <Grid Grid.Row="0" ColumnDefinitions="40,*,160" Margin="4,0,4,4">
+        <Grid RowDefinitions="Auto,Auto,*">
+            <TextBox x:Name="txtFilter" Grid.Row="0" Watermark="Filter by title..."
+                     TextChanged="TxtFilter_TextChanged" Margin="0,0,0,8" />
+            <Grid Grid.Row="1" ColumnDefinitions="40,*,160" Margin="4,0,4,4">
                 <TextBlock Grid.Column="1" Text="Title" FontWeight="SemiBold" />
                 <TextBlock Grid.Column="2" Text="Platform" FontWeight="SemiBold" />
             </Grid>
-            <ListBox x:Name="lbGames" Grid.Row="1">
+            <ListBox x:Name="lbGames" Grid.Row="2">
                 <ListBox.ItemTemplate>
                     <DataTemplate x:DataType="local:GameRow">
                         <Grid ColumnDefinitions="40,*,160">
