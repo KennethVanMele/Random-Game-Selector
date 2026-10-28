@@ -6,15 +6,15 @@
         Title="Add Game">
     <StackPanel Margin="16" Spacing="10">
         <Grid ColumnDefinitions="Auto,*" RowDefinitions="Auto,Auto" RowSpacing="8" ColumnSpacing="8">
-            <TextBlock Grid.Row="0" Grid.Column="0" Text="Title:" VerticalAlignment="Center" />
-            <TextBox x:Name="txtTitle" Grid.Row="0" Grid.Column="1" />
-            <TextBlock Grid.Row="1" Grid.Column="0" Text="Platform:" VerticalAlignment="Center" />
-            <ComboBox x:Name="cmbPlatform" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" />
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Platform:" VerticalAlignment="Center" />
+            <ComboBox x:Name="cmbPlatform" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" />
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Title:" VerticalAlignment="Center" />
+            <TextBox x:Name="txtTitle" Grid.Row="1" Grid.Column="1" />
         </Grid>
         <CheckBox x:Name="cbMulti" Content="Add multiple games." />
         <StackPanel Orientation="Horizontal" Spacing="8" HorizontalAlignment="Right">
-            <Button Content="Add" Click="BtnAddGame_Click" />
-            <Button Content="Cancel" Click="BtnCancel_Click" />
+            <Button Content="Add" IsDefault="True" Click="BtnAddGame_Click" />
+            <Button Content="Cancel" IsCancel="True" Click="BtnCancel_Click" />
         </StackPanel>
     </StackPanel>
 </Window>
